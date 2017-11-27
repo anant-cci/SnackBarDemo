@@ -43,6 +43,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1686BE0F1FCC0DEE0021A7E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1686BE111FCC0E2B0021A7E7 /* CustomViews */,
+				1686BE101FCC0E1C0021A7E7 /* StoryBoards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1686BE101FCC0E1C0021A7E7 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				39CF42921FCBD1F500A92771 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1686BE111FCC0E2B0021A7E7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				39CF42A41FCBD4F900A92771 /* SnackBarView.swift */,
+				39CF42A21FCBD29200A92771 /* SnackbarView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1686BE121FCC0E610021A7E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				39CF42901FCBD1F500A92771 /* ViewController.swift */,
+				39CF42A01FCBD22400A92771 /* SecondViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1686BE131FCC0E750021A7E7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				39CF42A61FCBE12F00A92771 /* SnackBarManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		39CF42821FCBD1F500A92771 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +105,13 @@
 		39CF428D1FCBD1F500A92771 /* SnackbarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1686BE131FCC0E750021A7E7 /* Managers */,
+				1686BE121FCC0E610021A7E7 /* ViewControllers */,
+				1686BE0F1FCC0DEE0021A7E7 /* Views */,
 				39CF428E1FCBD1F500A92771 /* AppDelegate.swift */,
-				39CF42901FCBD1F500A92771 /* ViewController.swift */,
-				39CF42921FCBD1F500A92771 /* Main.storyboard */,
 				39CF42951FCBD1F500A92771 /* Assets.xcassets */,
 				39CF42971FCBD1F500A92771 /* LaunchScreen.storyboard */,
 				39CF429A1FCBD1F500A92771 /* Info.plist */,
-				39CF42A01FCBD22400A92771 /* SecondViewController.swift */,
-				39CF42A21FCBD29200A92771 /* SnackbarView.xib */,
-				39CF42A41FCBD4F900A92771 /* SnackBarView.swift */,
-				39CF42A61FCBE12F00A92771 /* SnackBarManager.swift */,
 			);
 			path = SnackbarDemo;
 			sourceTree = "<group>";

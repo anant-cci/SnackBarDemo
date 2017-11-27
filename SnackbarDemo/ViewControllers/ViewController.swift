@@ -23,6 +23,5 @@ class ViewController: UIViewController {
     @IBAction func showSnackbarButtonTapped(_ sender: Any) {
         SnackBarManager.sharedInstance().showSnackbarView(message: "Test", view: self.view)
     }
-    
 }
 
