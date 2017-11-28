@@ -7,6 +7,6 @@ target 'SnackbarDemo' do
 
   # Pods for SnackbarDemo
 
-pod 'SnackBar', :path => '/Volumes/Data/Git/CCI Internal Projects/SnackBar'
+pod 'SnackBar', :git => 'https://github.com/anant-cci/SnackBar.git', :tag => '1.0.1'
 
 end

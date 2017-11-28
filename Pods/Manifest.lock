@@ -1,16 +1,22 @@
 PODS:
-  - SnackBar (1.0.0)
+  - SnackBar (1.0.1)
 
 DEPENDENCIES:
-  - SnackBar (from `/Volumes/Data/Git/CCI Internal Projects/SnackBar`)
+  - SnackBar (from `https://github.com/anant-cci/SnackBar.git`, tag `1.0.1`)
 
 EXTERNAL SOURCES:
   SnackBar:
-    :path: /Volumes/Data/Git/CCI Internal Projects/SnackBar
+    :git: https://github.com/anant-cci/SnackBar.git
+    :tag: 1.0.1
+
+CHECKOUT OPTIONS:
+  SnackBar:
+    :git: https://github.com/anant-cci/SnackBar.git
+    :tag: 1.0.1
 
 SPEC CHECKSUMS:
-  SnackBar: 4ce5124407c2ced34684f68f8d9be1e8c7a6e775
+  SnackBar: 8c2235f9a1f93890de15ec529609c1ec23e66e8b
 
-PODFILE CHECKSUM: 019710cfdf9022531e374dcbef4221a80e063705
+PODFILE CHECKSUM: e6a89376eefc2339a24f5d9083ee112ef5f6a73f
 
 COCOAPODS: 1.1.1

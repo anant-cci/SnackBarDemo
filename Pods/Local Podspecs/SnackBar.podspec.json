@@ -1,9 +1,9 @@
 {
   "name": "SnackBar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A snackbar to show message like in android.",
-  "description": "The snackbar is a completely customizable widget that can be used    in any iOS app.",
-  "homepage": "http://raywenderlich.com",
+  "description": "The snackbar is a completely customizable widget that can be used in any iOS app.",
+  "homepage": "https://www.creativecapsule.com",
   "license": "MIT",
   "authors": {
     "Sahil Naik": "sahil.naik@creativecapsule.com"
@@ -12,13 +12,14 @@
     "ios": "10.0"
   },
   "source": {
-    "path": "."
+    "git": "https://github.com/anant-cci/SnackBar.git",
+    "tag": "1.0.1"
   },
   "source_files": [
     "SnackBar",
     "SnackBar/**/*.{h,m,swift,xib}"
   ],
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "3"
+    "SWIFT_VERSION": "4"
   }
 }
