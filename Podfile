@@ -7,6 +7,6 @@ target 'SnackbarDemo' do
 
   # Pods for SnackbarDemo
 
-pod 'SnackBar', :path => '../SnackBar'
+pod 'SnackBar', :path => '/Volumes/Data/Git/CCI Internal Projects/SnackBar'
 
 end

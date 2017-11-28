@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10454B7DEFAAE20F50FB51253529719E /* SnackBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 162AC908E9A4B96C41DD51214C1C1253 /* SnackBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10454B7DEFAAE20F50FB51253529719E /* SnackBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69EE15170CBDD5DE883469E5F67A0BF /* SnackBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11DDF3D9582B4032D6719E02AEA99C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		24C8DFB1EC75383CC9CCCD5666EE33C6 /* Pods-SnackbarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6ED584B56F33D7041067AFF4A6CA08 /* Pods-SnackbarDemo-dummy.m */; };
-		3638455C8383D51421F2DECFBB257530 /* SnackBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B66BA8D012981049A16883C0078D6F6B /* SnackBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		661818DF289E3476E6FEC9A0CA9D2787 /* SnackBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD6466711CC07EE1E969ED94DCB2AE /* SnackBar-dummy.m */; };
-		927686B9EDA9214FE729F4FAD825732B /* SnackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9E98239F8E492ECD993170525EC086 /* SnackBarView.swift */; };
-		9A0A9D8FCB2D26D0D37E53159154E362 /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6179BD9BD24075508D1DF915BA19C69 /* SnackBar.swift */; };
+		3638455C8383D51421F2DECFBB257530 /* SnackBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C725E61B5070709220F1A6D2530AE9 /* SnackBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661818DF289E3476E6FEC9A0CA9D2787 /* SnackBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D88A00412B44520BB111DA173A4EED /* SnackBar-dummy.m */; };
+		927686B9EDA9214FE729F4FAD825732B /* SnackBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697BECEE647F4D5F2E74288A730EC8E2 /* SnackBarView.swift */; };
+		9A0A9D8FCB2D26D0D37E53159154E362 /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F240A37F31FAECD16E3D7C7CB1B61 /* SnackBar.swift */; };
 		C26F367841360B794B84476B4C484699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		DC26672D75C7D1F542934B5170531ABD /* Pods-SnackbarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17857A67D65824363EFA4FF3F8D990AE /* Pods-SnackbarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEADACD22C952F11365BE31A503AE0B3 /* SnackBarView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 717FB23F9F94BCFD0DDCE7075C70FD6E /* SnackBarView.xib */; };
+		EEADACD22C952F11365BE31A503AE0B3 /* SnackBarView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 82443D2A864B1DA65FB145A32164FEA5 /* SnackBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,30 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		162AC908E9A4B96C41DD51214C1C1253 /* SnackBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnackBar-umbrella.h"; sourceTree = "<group>"; };
-		16D1ADB85EE6682E7A472185E1B48423 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17857A67D65824363EFA4FF3F8D990AE /* Pods-SnackbarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnackbarDemo-umbrella.h"; sourceTree = "<group>"; };
 		1BE66C5F188C424D308E92DD3777FDF9 /* Pods-SnackbarDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnackbarDemo-resources.sh"; sourceTree = "<group>"; };
-		236B8D79BDA3BCE2EDCD58F0D2FEA086 /* SnackBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnackBar-prefix.pch"; sourceTree = "<group>"; };
 		2ADC4195ADC5A4A14F7B04FFF327147A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F8839DCB5BA92D9010D6288D4D64C6F /* SnackBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnackBar.modulemap; sourceTree = "<group>"; };
 		48D0A82B1C47707B3D663C767AB831E8 /* Pods-SnackbarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnackbarDemo.release.xcconfig"; sourceTree = "<group>"; };
-		58CD6466711CC07EE1E969ED94DCB2AE /* SnackBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnackBar-dummy.m"; sourceTree = "<group>"; };
+		52D88A00412B44520BB111DA173A4EED /* SnackBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnackBar-dummy.m"; sourceTree = "<group>"; };
+		63C725E61B5070709220F1A6D2530AE9 /* SnackBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnackBar.h; sourceTree = "<group>"; };
+		697BECEE647F4D5F2E74288A730EC8E2 /* SnackBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnackBarView.swift; sourceTree = "<group>"; };
 		7164025D82C2830FB0072782C9C88126 /* Pods-SnackbarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnackbarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		717FB23F9F94BCFD0DDCE7075C70FD6E /* SnackBarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SnackBarView.xib; sourceTree = "<group>"; };
+		82443D2A864B1DA65FB145A32164FEA5 /* SnackBarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SnackBarView.xib; sourceTree = "<group>"; };
 		8BB603643DCDEEA30973E9BAE516868B /* Pods-SnackbarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SnackbarDemo.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		984F240A37F31FAECD16E3D7C7CB1B61 /* SnackBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
 		9A6ED584B56F33D7041067AFF4A6CA08 /* Pods-SnackbarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnackbarDemo-dummy.m"; sourceTree = "<group>"; };
-		B6179BD9BD24075508D1DF915BA19C69 /* SnackBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
-		B66BA8D012981049A16883C0078D6F6B /* SnackBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SnackBar.h; sourceTree = "<group>"; };
+		A10180DF414162135F7A9C5D20F9F6B6 /* SnackBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnackBar.xcconfig; sourceTree = "<group>"; };
+		A8E3ECAF72BA7C32B9177D5DC371F208 /* SnackBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnackBar-prefix.pch"; sourceTree = "<group>"; };
 		BADD23898F3E17776CFDC1A890DA081F /* Pods-SnackbarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnackbarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C195C3D346F7F17882348C7B03B82D02 /* SnackBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnackBar.modulemap; sourceTree = "<group>"; };
 		C40BAC6BF72A0F2244FE3099B936207F /* Pods-SnackbarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnackbarDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C69EE15170CBDD5DE883469E5F67A0BF /* SnackBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnackBar-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB72570D58A47D12DE8B6B14C23EA9B1 /* SnackBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnackBar.framework; path = SnackBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E19F718157D0877B6F439584D0AD3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E576BA9BB7DD378DBE0E301BDD9FD34A /* Pods_SnackbarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnackbarDemo.framework; path = "Pods-SnackbarDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E21FD970855B08274947E38BDE593A /* Pods-SnackbarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnackbarDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		EB290DC3A6ECAB97E6E087E48AFC034F /* SnackBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnackBar.xcconfig; sourceTree = "<group>"; };
-		FF9E98239F8E492ECD993170525EC086 /* SnackBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnackBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,18 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00EF0B1AC55D4EBB0527760755ABEC2E /* Support Files */ = {
+		0EE5D6FCFB57D4F82278303BABDA7E16 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16D1ADB85EE6682E7A472185E1B48423 /* Info.plist */,
-				2F8839DCB5BA92D9010D6288D4D64C6F /* SnackBar.modulemap */,
-				EB290DC3A6ECAB97E6E087E48AFC034F /* SnackBar.xcconfig */,
-				58CD6466711CC07EE1E969ED94DCB2AE /* SnackBar-dummy.m */,
-				236B8D79BDA3BCE2EDCD58F0D2FEA086 /* SnackBar-prefix.pch */,
-				162AC908E9A4B96C41DD51214C1C1253 /* SnackBar-umbrella.h */,
+				E4E19F718157D0877B6F439584D0AD3C /* Info.plist */,
+				C195C3D346F7F17882348C7B03B82D02 /* SnackBar.modulemap */,
+				A10180DF414162135F7A9C5D20F9F6B6 /* SnackBar.xcconfig */,
+				52D88A00412B44520BB111DA173A4EED /* SnackBar-dummy.m */,
+				A8E3ECAF72BA7C32B9177D5DC371F208 /* SnackBar-prefix.pch */,
+				C69EE15170CBDD5DE883469E5F67A0BF /* SnackBar-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../SnackBarDemo/Pods/Target Support Files/SnackBar";
+			path = "../../Swift Demo Projects/SnackBarDemo/Pods/Target Support Files/SnackBar";
 			sourceTree = "<group>";
 		};
 		268A1E66309F59DFF46833667AEB3508 /* Pods-SnackbarDemo */ = {
@@ -108,21 +108,13 @@
 			path = "Target Support Files/Pods-SnackbarDemo";
 			sourceTree = "<group>";
 		};
-		53A7A50ABDC06011AFD8462389C779F3 /* Development Pods */ = {
+		4E60771240F94C705B1C934F89C3C8CE /* SnackBar */ = {
 			isa = PBXGroup;
 			children = (
-				810489CC7B3641FEA7CC10503D6DFCD8 /* SnackBar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		69AA3E65B000FAC59F1917FA41B4808E /* SnackBar */ = {
-			isa = PBXGroup;
-			children = (
-				B66BA8D012981049A16883C0078D6F6B /* SnackBar.h */,
-				B6179BD9BD24075508D1DF915BA19C69 /* SnackBar.swift */,
-				FF9E98239F8E492ECD993170525EC086 /* SnackBarView.swift */,
-				717FB23F9F94BCFD0DDCE7075C70FD6E /* SnackBarView.xib */,
+				63C725E61B5070709220F1A6D2530AE9 /* SnackBar.h */,
+				984F240A37F31FAECD16E3D7C7CB1B61 /* SnackBar.swift */,
+				697BECEE647F4D5F2E74288A730EC8E2 /* SnackBarView.swift */,
+				82443D2A864B1DA65FB145A32164FEA5 /* SnackBarView.xib */,
 			);
 			name = SnackBar;
 			path = SnackBar;
@@ -148,21 +140,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				53A7A50ABDC06011AFD8462389C779F3 /* Development Pods */,
+				8C9C9432D92DB32096FFFDAD8F194AB7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B57A09059C31644AFAECA372BB7B5CAB /* Products */,
 				7A2F0CE697D8450A2B56114943C04B6A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		810489CC7B3641FEA7CC10503D6DFCD8 /* SnackBar */ = {
+		8C9C9432D92DB32096FFFDAD8F194AB7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69AA3E65B000FAC59F1917FA41B4808E /* SnackBar */,
-				00EF0B1AC55D4EBB0527760755ABEC2E /* Support Files */,
+				DFA2F4C72DADB7BFC05246093378191F /* SnackBar */,
 			);
-			name = SnackBar;
-			path = ../../SnackBar;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B57A09059C31644AFAECA372BB7B5CAB /* Products */ = {
@@ -181,6 +171,16 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		DFA2F4C72DADB7BFC05246093378191F /* SnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				4E60771240F94C705B1C934F89C3C8CE /* SnackBar */,
+				0EE5D6FCFB57D4F82278303BABDA7E16 /* Support Files */,
+			);
+			name = SnackBar;
+			path = "/Volumes/Data/Git/CCI Internal Projects/SnackBar";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -380,7 +380,7 @@
 		};
 		CE7E1218ABDFCF4580CF1CBAE0D56CAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB290DC3A6ECAB97E6E087E48AFC034F /* SnackBar.xcconfig */;
+			baseConfigurationReference = A10180DF414162135F7A9C5D20F9F6B6 /* SnackBar.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,7 +488,7 @@
 		};
 		F5AA67B979D418DAD7C002024C15226A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB290DC3A6ECAB97E6E087E48AFC034F /* SnackBar.xcconfig */;
+			baseConfigurationReference = A10180DF414162135F7A9C5D20F9F6B6 /* SnackBar.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

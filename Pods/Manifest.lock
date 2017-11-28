@@ -2,15 +2,15 @@ PODS:
   - SnackBar (1.0.0)
 
 DEPENDENCIES:
-  - SnackBar (from `../SnackBar`)
+  - SnackBar (from `/Volumes/Data/Git/CCI Internal Projects/SnackBar`)
 
 EXTERNAL SOURCES:
   SnackBar:
-    :path: ../SnackBar
+    :path: /Volumes/Data/Git/CCI Internal Projects/SnackBar
 
 SPEC CHECKSUMS:
   SnackBar: 4ce5124407c2ced34684f68f8d9be1e8c7a6e775
 
-PODFILE CHECKSUM: 0d45ebe5ef55c11dbfce951b35cffb7680e31eab
+PODFILE CHECKSUM: 019710cfdf9022531e374dcbef4221a80e063705
 
 COCOAPODS: 1.1.1
