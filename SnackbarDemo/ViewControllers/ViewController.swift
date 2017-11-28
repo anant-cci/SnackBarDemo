@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showSnackbarButtonTapped(_ sender: Any) {
-        SnackBar.showSnackBar(message: "Test", view: self.view)
+        SnackBar.show(message: "Test", view: self.view)
     }
 }
 
