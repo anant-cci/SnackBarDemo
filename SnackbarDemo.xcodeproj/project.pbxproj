@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16829D0B1FCC1F910086DEAA /* SnackBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16829D0A1FCC1F800086DEAA /* SnackBar.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		16829D0C1FCC1F910086DEAA /* SnackBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16829D0A1FCC1F800086DEAA /* SnackBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		16829D0F1FCC221F0086DEAA /* ViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 39CF42901FCBD1F500A92771 /* ViewController.swift */; };
 		16829D101FCC221F0086DEAA /* SecondViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 39CF42A01FCBD22400A92771 /* SecondViewController.swift */; };
 		16829D111FCC221F0086DEAA /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = 39CF428E1FCBD1F500A92771 /* AppDelegate.swift */; };
+		16C524AD1FCD1AF100C93C48 /* SnackBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C524AC1FCD1AEC00C93C48 /* SnackBar.framework */; };
+		16C524AE1FCD1AF100C93C48 /* SnackBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16C524AC1FCD1AEC00C93C48 /* SnackBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39CF428F1FCBD1F500A92771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CF428E1FCBD1F500A92771 /* AppDelegate.swift */; };
 		39CF42911FCBD1F500A92771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CF42901FCBD1F500A92771 /* ViewController.swift */; };
 		39CF42941FCBD1F500A92771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CF42921FCBD1F500A92771 /* Main.storyboard */; };
@@ -21,16 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16829D091FCC1F800086DEAA /* PBXContainerItemProxy */ = {
+		16C524AB1FCD1AEC00C93C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16829D051FCC1F800086DEAA /* SnackBar.xcodeproj */;
+			containerPortal = 16C524A71FCD1AEC00C93C48 /* SnackBar.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1686BE1E1FCC14D30021A7E7;
 			remoteInfo = SnackBar;
 		};
-		16829D0D1FCC1F910086DEAA /* PBXContainerItemProxy */ = {
+		16C524AF1FCD1AF100C93C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16829D051FCC1F800086DEAA /* SnackBar.xcodeproj */;
+			containerPortal = 16C524A71FCD1AEC00C93C48 /* SnackBar.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 1686BE1D1FCC14D30021A7E7;
 			remoteInfo = SnackBar;
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				16829D0C1FCC1F910086DEAA /* SnackBar.framework in Embed Frameworks */,
+				16C524AE1FCD1AF100C93C48 /* SnackBar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		16829D051FCC1F800086DEAA /* SnackBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnackBar.xcodeproj; path = "../../CCI Internal Projects/SnackBar/SnackBar.xcodeproj"; sourceTree = "<group>"; };
+		16C524A71FCD1AEC00C93C48 /* SnackBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnackBar.xcodeproj; path = "../../CCI Internal Projects/SnackBar/SnackBar.xcodeproj"; sourceTree = "<group>"; };
 		39CF428B1FCBD1F500A92771 /* SnackbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CF428E1FCBD1F500A92771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39CF42901FCBD1F500A92771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,21 +68,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16829D0B1FCC1F910086DEAA /* SnackBar.framework in Frameworks */,
+				16C524AD1FCD1AF100C93C48 /* SnackBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16829D061FCC1F800086DEAA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				16829D0A1FCC1F800086DEAA /* SnackBar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1686BE0F1FCC0DEE0021A7E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +100,18 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		16C524A81FCD1AEC00C93C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C524AC1FCD1AEC00C93C48 /* SnackBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		39CF42821FCBD1F500A92771 = {
 			isa = PBXGroup;
 			children = (
-				16829D051FCC1F800086DEAA /* SnackBar.xcodeproj */,
+				16C524A71FCD1AEC00C93C48 /* SnackBar.xcodeproj */,
 				39CF428D1FCBD1F500A92771 /* SnackbarDemo */,
 				39CF428C1FCBD1F500A92771 /* Products */,
 			);
@@ -153,7 +153,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				16829D0E1FCC1F910086DEAA /* PBXTargetDependency */,
+				16C524B01FCD1AF100C93C48 /* PBXTargetDependency */,
 			);
 			name = SnackbarDemo;
 			productName = SnackbarDemo;
@@ -189,8 +189,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 16829D061FCC1F800086DEAA /* Products */;
-					ProjectRef = 16829D051FCC1F800086DEAA /* SnackBar.xcodeproj */;
+					ProductGroup = 16C524A81FCD1AEC00C93C48 /* Products */;
+					ProjectRef = 16C524A71FCD1AEC00C93C48 /* SnackBar.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -201,11 +201,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		16829D0A1FCC1F800086DEAA /* SnackBar.framework */ = {
+		16C524AC1FCD1AEC00C93C48 /* SnackBar.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SnackBar.framework;
-			remoteRef = 16829D091FCC1F800086DEAA /* PBXContainerItemProxy */;
+			remoteRef = 16C524AB1FCD1AEC00C93C48 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -240,10 +240,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16829D0E1FCC1F910086DEAA /* PBXTargetDependency */ = {
+		16C524B01FCD1AF100C93C48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnackBar;
-			targetProxy = 16829D0D1FCC1F910086DEAA /* PBXContainerItemProxy */;
+			targetProxy = 16C524AF1FCD1AF100C93C48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
