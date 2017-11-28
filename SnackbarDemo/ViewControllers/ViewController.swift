@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnackBar
 
 class ViewController: UIViewController {
 
@@ -21,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showSnackbarButtonTapped(_ sender: Any) {
-        SnackBarManager.sharedInstance().showSnackbarView(message: "Test", view: self.view)
+        SnackBar.showSnackBar(message: "Test", view: self.view)
     }
 }
 
