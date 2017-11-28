@@ -1,0 +1,16 @@
+PODS:
+  - SnackBar (1.0.0)
+
+DEPENDENCIES:
+  - SnackBar (from `../SnackBar`)
+
+EXTERNAL SOURCES:
+  SnackBar:
+    :path: ../SnackBar
+
+SPEC CHECKSUMS:
+  SnackBar: 4ce5124407c2ced34684f68f8d9be1e8c7a6e775
+
+PODFILE CHECKSUM: 0d45ebe5ef55c11dbfce951b35cffb7680e31eab
+
+COCOAPODS: 1.1.1

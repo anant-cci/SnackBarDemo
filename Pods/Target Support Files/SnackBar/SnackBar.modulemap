@@ -1,0 +1,6 @@
+framework module SnackBar {
+  umbrella header "SnackBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
